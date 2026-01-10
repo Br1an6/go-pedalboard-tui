@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"os"
-	"strings"
 
 	"github.com/Br1an6/go-pedalboard/pkg/pedalboard"
 	"github.com/charmbracelet/bubbles/list"
@@ -82,7 +81,7 @@ func initialModel() model {
 		{title: "Phaser", desc: "Phase shifting"},
 	}
 
-	l := list.New(inputItems, list.NewDefaultDelegate(), 0, 0)
+	l := list.New(convertItems(inputItems), list.NewDefaultDelegate(), 0, 0)
 	l.Title = "Select Input Device"
 
 	return model{
