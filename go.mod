@@ -1,6 +1,6 @@
 module pedalboard-tui
 
-go 1.25.5
+go 1.25
 
 require (
 	github.com/Br1an6/go-pedalboard v0.0.1
