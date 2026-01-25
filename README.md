@@ -2,7 +2,7 @@
 
 A terminal-based audio processing interface built with Go, allowing you to apply real-time effects to your audio input.
 
-![alt tag](https://github.com/Br1an6/go-pedalboar-tuid/blob/main/img/tui.png)
+![alt tag](https://github.com/Br1an6/go-pedalboar-tui/blob/main/img/tui.png)
 
 ## Features
 
